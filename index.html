@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo Dinâmico</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header class="topo">
+        <h1 id="nome"></h1>
+        <button id="btn-preencher">Preencher Currículo</button>
+    </header>
+
+    <main class="layout">
+        <aside class="sidebar">
+            <div class="imagem"></div>
+
+            <section class="card dados">
+                <h2>Informações</h2>
+                <ul id="lista-dados"></ul>
+            </section>
+
+            <section class="card habilidades">
+                <h2>Habilidades</h2>
+                <ul id="lista-conhecimentos"></ul>
+            </section>
+        </aside>
+
+        <section class="conteudo">
+            <article class="card experiencias">
+                <h2>Experiência</h2>
+                <div id="experiencias"></div>
+            </article>
+
+            <article class="card formacao">
+                <h2>Formação</h2>
+                <div id="formacao"></div>
+            </article>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

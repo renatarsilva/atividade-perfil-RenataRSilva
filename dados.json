@@ -1,0 +1,50 @@
+{
+  "nome": "Renata Rodrigues da Silva",
+  "dataNascimento": "23/08",
+  "email": "renata.rsilva71@senacsp.edu.br",
+  "telefone": "11 4002-8922",
+  "linkedin": "https://www.linkedin.com/in/renatarsilvain/",
+  "github": "https://github.com/renatarsilva",
+  "conhecimentos": [
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "Python"
+  ],
+
+
+  "experiencias": [{
+    "cargo": "Desenvolvedora de Software",
+    "empresa": "Thoughtworks",
+    "periodo": "2026",
+    "atividades": [
+      "Implementação de funcionalidades em aplicações web ou APIs",
+      "Trabalho com metodologias ágeis",
+      "Escrita de testes e documentação"
+    ]
+  },{
+    "cargo": "Analista de Mídia e ",
+    "empresa": "I-Cherry",
+    "periodo": "2024",
+    "atividades": [
+      "Construção de Dashboard com dados das campanhas",
+      "Implementação das campanhas na mídias sociais",
+      "Trabalho com metodologias ágeis"
+    ]
+  }],
+
+
+
+
+
+  "formacao": [{
+    "curso": "Análise e Desenvolvimento de Sistemas",
+    "instituicao": "Centro Universitário Senac - Santo Amaro",
+    "conclusao": "06/2027"
+  },
+  {
+    "curso": "Administração de Empresas",
+    "instituicao": "Universidade São Judas Tadeu - Butantã",
+    "conclusao": "06/2021"
+  }]
+}

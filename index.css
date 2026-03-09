@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e1b4b);
+    color: #1e293b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #1e1b4b;
+    color: white;
+}
+
+.topo h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#btn-preencher {
+    padding: 10px 22px;
+    border-radius: 25px;
+    border: none;
+    background-color: #7c3aed;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn-preencher:hover {
+    background-color: #5b21b6;
+    transform: scale(1.05);
+}
+
+.layout {
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    gap: 25px;
+    margin: 40px 0;
+}
+
+.sidebar {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formacao-item{
+    margin-bottom: 20px;
+}
+
+.imagem {
+    height: 500px;
+    background-image: url("./foto-perfil.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    border: 3px solid #7c3aed;
+}
+
+.card {
+    background-color: #f8fafc;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 2px solid #7c3aed;
+    padding-bottom: 6px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+p {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+a {
+    color: #6d28d9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .sidebar,
+    .conteudo {
+        width: 100%;
+    }
+}
